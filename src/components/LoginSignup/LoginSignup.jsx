@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './LoginSignup.css';
 import loginImage from './../assets/login1.png';
+import { Link } from 'react-router-dom';
 
 function LoginScreen() {
   const [email, setEmail] = useState('');
@@ -47,7 +48,7 @@ function LoginScreen() {
         <button type="submit" className="login-button">Login</button>
 
         <div className="signup-link">
-          New user? <a href="/signup">Sign up</a>
+          New user? <Link to='/register'>Sign up</Link>
         </div>
       </form>
     </div>

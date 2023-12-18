@@ -76,6 +76,10 @@ input::placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #C2E6FF;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding-bottom: 10px;
 }
 
 /* Responsive adjustments */

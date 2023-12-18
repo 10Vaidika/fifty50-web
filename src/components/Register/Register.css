@@ -16,7 +16,10 @@
 .register-header {
   background-color: #C2E6FF; /* Replace with the correct color code */
   text-align: center;
-  padding: 20px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
 }
 
 .register-header h1 {
